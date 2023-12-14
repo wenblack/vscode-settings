@@ -13,14 +13,14 @@ import { OpenFilesProvider } from '@/hooks/useOpenFiles'
 
 export const metadata = {
   title: {
-    default: 'Diego Fernandes',
-    template: '%s | Diego Fernandes'
+    default: 'Wen Barbosa',
+    template: '%s | Wen Barbosa'
   },
   robots: {
     index: true,
     follow: true,
   },
-  description: "CTO at @Rocketseat. Passionate about education and changing people's lives through programming.",
+  description: "Fullstack Javascript developer. Passionate about learning and changing people's lives through programming.",
 }
 
 export default function RootLayout({
