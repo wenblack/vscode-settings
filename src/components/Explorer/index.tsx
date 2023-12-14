@@ -1,12 +1,6 @@
 import {
-  Code2,
-  Cog,
-  Cpu,
   FileJson,
-  Film,
-  Joystick,
   MoreHorizontal,
-  Terminal,
 } from 'lucide-react';
 import { OpenFilesSubMenu } from '../OpenFilesTabs/OpenFilesSubMenu';
 import { File } from './File';
@@ -42,7 +36,7 @@ export function Explorer() {
           <OpenFilesSubMenu />
         </SubMenu>
 
-        <SubMenu defaultOpen title="FALA-DEV">
+        <SubMenu defaultOpen title="WEN WORKSPACE">
           <Folder defaultOpen title="Visual Studio Code">
             {/* <File href="/vscode/general">
             <Code2 size={16} />
